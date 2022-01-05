@@ -1,0 +1,116 @@
+
+.violeta {
+	border: 5px solid white;
+	border-radius: 25px;
+	padding: 30px;
+	color: #fff;
+	background: #5900b3bb;
+	box-shadow: 2px 2px 5px #33333399;
+	margin: 20px;
+	position: absolute;
+	transition: box-shadow .5s;
+	z-index: 50;
+}
+
+.verde {
+	border: 5px solid white;
+	border-radius: 25px;
+	padding: 30px;
+	color: #fff;
+	background: #006622cc;
+	box-shadow: 2px 2px 5px #33333399;
+	margin: 20px;
+	position: absolute;
+	transition: box-shadow .5s
+
+
+}
+
+.zonaDeArrastre{
+	text-transform: uppercase;
+	font-weight: 700;
+	width: calc(100% + 60px);
+	height: 40px;
+	background: #33333333;
+	border-radius: 25px 25px 0 0;
+	margin: 0 px;
+	padding: 10px 30px;
+	position: relative;
+	top: -30px;
+	left: -30px;
+	transition: background .5s;
+}
+
+.zonaDeArrastre:hover{
+	background: #00000066;
+	cursor: move;
+}
+
+.agarrado {
+	z-index: 1000;
+	box-shadow: 10px 10px 12px #00000066;
+}
+
+.xyyyy {
+	grid-row: span 4;
+	grid-column:  span 1;
+}
+
+.xyy {
+	grid-row: span 2;
+	grid-column: span 1;
+}
+
+.xxy {
+	grid-row: span 1;
+	grid-column: span 2;
+}
+
+.xxxy {
+	grid-row: span 1;
+	grid-column: span 3;
+}	
+
+
+
+h2 {
+	text-transform: uppercase;
+	font-size: 1.1em;
+	margin: 0 0 20px 0;
+}
+
+select, input, button {
+	text-transform: uppercase;
+	font-size: .9em;
+	margin: 15px 0 5px 0;
+	width: 100%;
+	border: 1px solid transparent;
+	padding: 10px;
+	border-radius: 5px;
+	color: #fff;
+	background: #00000099;
+	transition: all .75s;
+}
+
+input:hover, input:focus, select:hover, select:focus {
+	background: #666;
+	border: 1px solid #fff;
+}
+
+p, label {
+	display: block;
+	font-size: 0.8em;
+	color:  #d9b3ff;
+	margin: 2px 0px 8px 10px;
+	text-transform: uppercase;
+
+}
+
+input[type="number"] {
+	width: 40%;
+	margin: 0; 
+}
+
+.inputError {
+	border: 1px solid red; !important
+}
